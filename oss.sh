@@ -52,10 +52,10 @@ ID="1"
 MESIN="Git Workflows"
 
 # clang config
-REMOTE="https://github.com"
-TARGET="GhostMaster69-dev"
-REPO="cosmic-clang"
-BRANCH="master"
+REMOTE="https://gitlab.com"
+TARGET="clangsantoni"
+REPO="Zyc_Clang"
+BRANCH="22"
 
 # setup telegram env
 export WAKTU=$(date +"%T")
