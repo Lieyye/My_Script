@@ -53,7 +53,7 @@ MESIN="Git Workflows"
 
 # clang config
 REMOTE="https://gitlab.com"
-TARGET="cGhostMaster69-dev"
+TARGET="GhostMaster69-dev"
 REPO="cosmic-clang"
 BRANCH="master"
 # setup telegram env
