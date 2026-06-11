@@ -53,9 +53,9 @@ MESIN="Git Workflows"
 
 # clang config
 REMOTE="https://gitlab.com"
-TARGET="clangsantoni"
-REPO="zyc_clang"
-BRANCH="14"
+TARGET="cGhostMaster69-dev"
+REPO="cosmic-clang"
+BRANCH="master"
 # setup telegram env
 export WAKTU=$(date +"%T")
 export TGL=$(date +"%d%m%Y")
@@ -122,7 +122,7 @@ Start=$(date +"%s")
                               CC=clang \
                               CLANG_TRIPLE=aarch64-linux-gnu- \
                               CROSS_COMPILE=aarch64-linux-gnu- \
-                              CROSS_COMPILE_ARM32=arm-linux-gnueabi-  2>&1 | tee error.log
+                              CROSS_COMPILE_COMPAT=arm-linux-gnueabi-  2>&1 | tee error.log
 
 End=$(date +"%s")
 Diff=$(($End - $Start))
