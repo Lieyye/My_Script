@@ -53,9 +53,9 @@ MESIN="Git Workflows"
 
 # clang config
 REMOTE="https://gitlab.com"
-TARGET="GhostMaster69-dev"
-REPO="cosmic-clang"
-BRANCH="master"
+TARGET="clangsantoni"
+REPO="zyc_clang"
+BRANCH="16"
 # setup telegram env
 export WAKTU=$(date +"%T")
 export TGL=$(date +"%d%m%Y")
