@@ -55,7 +55,7 @@ MESIN="Git Workflows"
 REMOTE="https://gitlab.com"
 TARGET="clangsantoni"
 REPO="zyc_clang"
-BRANCH="16"
+BRANCH="14"
 # setup telegram env
 export WAKTU=$(date +"%T")
 export TGL=$(date +"%d%m%Y")
