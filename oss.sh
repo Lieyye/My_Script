@@ -40,7 +40,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
-TYPE="[STABLE]"
+TYPE="Test_Build"
 KERNEL_NAME="AFORE-prjkt"
 DEVICE="Samsung Galaxy A04e"
 DEFCONFIG_FILES="rsuntk-a04e_defconfig"
@@ -55,7 +55,7 @@ MESIN="Git Workflows"
 REMOTE="https://gitlab.com"
 TARGET="clangsantoni"
 REPO="Zyc_Clang"
-BRANCH="22"
+BRANCH="21"
 
 # setup telegram env
 export WAKTU=$(date +"%T")
