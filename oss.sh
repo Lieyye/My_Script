@@ -45,7 +45,12 @@ KERNEL_NAME="AFORE-prjkt"
 DEVICE="Samsung Galaxy A04e"
 DEFCONFIG_FILES="rsuntk-a04e_defconfig"
 AnyKernel="https://github.com/Lieyye/AnyKernel3.git"
-AnyKernelbranch="A042F"
+AnyKernelbranch="A042F"HOSST="MyLabs"
+HOSST="GitHub"
+USEER="Lieyya"
+ID="AFORE"
+MESIN="Git Workflows"
+
 
 # clang config
 REMOTE="https://gitlab.com"
@@ -141,17 +146,8 @@ export KBUILD_BUILD_USER="$USEER"
 export KBUILD_BUILD_VERSION="$ID"
 
 mkdir -p out
-
 make O=out clean && make O=out mrproper
 make "$DEFCONFIG_FILES" O=out
-
-echo -e "$yellow << patching KPM before build >> \n $white"
-
-chmod +x patch_kpm.sh
-./patch_kpm.sh --download
-
-echo -e "$yellow << compiling the kernel >> \n $white"
-
 build_kernel || error=true
 
 DATE=$(date +"%Y%m%d-%H%M%S")
